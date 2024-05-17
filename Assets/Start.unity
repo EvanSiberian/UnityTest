@@ -345,6 +345,11 @@ Transform:
   - {fileID: 1253406335}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &543962202 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4793220980792910876, guid: 830335a0271cb1f4e917235d09b51e8d, type: 3}
+  m_PrefabInstance: {fileID: 1920609365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &713099635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -883,9 +888,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootInterval: 0.5
-  range: 4
-  projectilePrefab: {fileID: 0}
-  shootPoint: {fileID: 0}
+  range: 20
+  projectilePrefab: {fileID: 121420, guid: 83b1bef18dd7ed947ae8f4d857327102, type: 3}
+  shootPoint: {fileID: 543962202}
 --- !u!4 &1920609368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 468124, guid: 830335a0271cb1f4e917235d09b51e8d, type: 3}
